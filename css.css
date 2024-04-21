@@ -1,0 +1,136 @@
+body{
+    font-family: sans-serif; 
+}
+
+
+a{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    color: blue;
+}
+h1{
+    text-align: center;
+}
+.fondo{
+    background-image:url(imagenes/fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 150px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+/*index*/
+.index{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(216, 16, 16);
+
+}
+.index h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.index p{
+    margin: 20px;
+    font-weight: 1000;
+    line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: rgb(216, 16, 16);
+    font-weight: bold;
+    border: 2px solid   #000000;
+}
+
+
+/*comprar*/
+.body-casas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    
+}
+.casas{
+    border: solid;
+    
+    
+}
+.casas img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    padding: 10px 50px 0px;
+}
+.info-casas{
+    padding: 0px 50px 5px;
+}
+/*alquilar*/
+
+
+/*contacto*/
+.formulario{
+    align-items: center;
+    
+}
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    
+}
+label{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 136, 136)
+}
+.submit{
+    background-color: red;
+}
+
+
+
+    
+    
+
+
+
